@@ -1,0 +1,62 @@
+.Login {
+  display: flex;
+}
+.about-container {
+  width: 50%;
+  position: absolute;
+  top: 20%;
+  left: 25%;
+}
+.Login-img {
+  width: 50%;
+}
+.form {
+  width: 500px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #db1818;
+  text-align: center;
+}
+.input {
+  background: white;
+  border: 0;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #070707;
+  padding: 14px 10px;
+  width: 200px;
+  color: black;
+  border-radius: 25px;
+  outline: none;
+}
+.input:focus {
+  width: 300px;
+}
+.h1 {
+  color: wheat;
+  font-family: "Courier New", Courier, monospace;
+}
+.button {
+  background: rgb(68, 48, 179);
+  color: rgb(224, 211, 211);
+  width: 98px;
+  height: 32px;
+  border-radius: 11px;
+  outline: none;
+  border: 2px solid #0cf546;
+  cursor: pointer;
+}
+.already button {
+  margin: 25px;
+  border: none;
+  width: fit-content;
+  background: rgb(49, 201, 201);
+}
+.Login-img {
+  width: 250%;
+  height: 250%;
+}
